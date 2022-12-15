@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 import Web3Modal from "web3modal";
 import { providers, Contract, ethers } from "ethers";
 import { useEffect, useRef, useState } from "react";
-import { VOTING_CONTRACT_ADDRESS, abi } from "./constants";
+import { VOTING_CONTRACT_ADDRESS, abi } from "./constants/index1";
 
 export default function Home() {
   // walletConnected keep track of whether the user's wallet is connected or not
